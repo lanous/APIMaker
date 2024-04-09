@@ -12,3 +12,14 @@ $RestAPI->Authorization("Bearer",function ($token) {
 });
 
 $RestAPI->Route(Calculate::class,$route);
+
+// http://127.0.0.1/api/sum?X=10&Y=20
+
+/*
+    {
+        "status": true,
+        "data": {
+            "calculate": 30
+        }
+    }
+*/
