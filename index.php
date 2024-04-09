@@ -1,8 +1,5 @@
 <?php
-include_once("src/RestAPI/Results.php");
-include_once("src/RestAPI/Allowed.php");
-include_once("src/RestAPI/Structure.php");
-include_once("src/RestAPI.php");
+include_once("vendor/autoload.php");
  
 $route = $_GET['route'] ?? null;
 $RestAPI = new Lanous\APIMaker\RestAPI(__DIR__);
